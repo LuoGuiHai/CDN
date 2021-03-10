@@ -1,0 +1,30 @@
+如何在OrangeFox Recovery中设置增量MIUI OTA
+
+请执行以下步骤：
+
+1.下载OrangeFox Recovery的最新版本
+
+2.下载完整的MIUI ROM，它将成为您将来的MIUI经验的基础，并将其复制到手机中（通常应将其复制到外部存储设备中）
+
+3.重启进入OrangeFox Recovery（如果刷入了OrangeFox zip，这将自动发生）
+
+4.转到OrangeFox设置，点击“ MIUI OTA”，然后打开“启用MIUI OTA”。如果您有基于Android Pie或Android 10的最近库存的MIUI 11或MIUI 10 ROM，请确保未在MIUI OTA设置中选中“禁用DM版本”框，否则，增量MIUI OTA 绝对不能使用
+此失败的典型症状是，在下载增量OTA更新后点击“立即重新启动”时，将不会发生任何事情。否则，如果尝试下载增量OTA更新，只会收到错误消息。
+如果遇到此问题，则需要重复整个过程（从第5步开始），并在MIUI OTA设置中取消选中 “禁用DM版本”框。
+
+5.转到“擦除”菜单，擦除数据，缓存和dalvik，然后重新启动OrangeFox
+
+6.刷入完整的MIUI ROM。ROM刷新后，OrangeFox将启动“ OTA_BAK”过程，该过程将备份您的系统（有时是供应商），并将分区引导到/ sdcard / Fox / OTA目录（该目录位于内部存储器中）。
+您不得删除/ sdcard / Fox / OTA目录中的任何文件。如果这样做，则增量OTA更新肯定会失败。
+
+7.重新启动手机，然后开始正常使用手机
+
+8.当MIUI通知您有更新时，请使用MIUI更新程序下载更新，并使其自动重新启动到OrangeFox
+
+9.OrangeFox将自动安装更新（这将需要几分钟）
+
+10.在完成MIUI OTA更新的安装后，OrangeFox将自动重启手机。
+
+之后，您将不再需要刷新完整的ROM-只需按照上面＃9的步骤进行即可
+
+BY https://www.coolapk.com/feed/16774366?shareKey=M2MxYjc0NzI3ZTlhNWYyNjg1MGQ~&shareUid=3377798&shareFrom=com.coolapk.market_10.5-beta1

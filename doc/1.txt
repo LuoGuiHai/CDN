@@ -1,0 +1,28 @@
+
+pkg update && pkg install vim curl wget git unzip nodejs-lts openssh -y && npm install hexo-cli -g && hexo init blog && cd blog && npm install hexo-deployer-git --save && npm audit fix && hexo g && hexo s
+
+npm install --no-bin-links
+
+sh -c "$(curl -fsSL https://gitee.com/idkzr/termux-ohmyzsh/raw/master/install.sh)"
+
+vim .zshrc
+
+xiong-chiamiov-plus
+
+agnoster 默认主题
+
+cd /storage/emulated/0/Gui_Hai/Resources/Hexo/guihai-blog/
+
+exit
+
+ssh-agent bash
+ssh-add /data/data/com.termux/files/home/.ssh/id_rsa_159
+ssh-add /data/data/com.termux/files/home/.ssh/id_rsa_275
+
+npm install --global gulp-cli
+npm install gulp-htmlclean --save-dev
+npm install --save gulp-html-minifier-terser
+npm install gulp-clean-css --save-dev
+npm install --save-dev gulp-uglify
+npm install --save-dev gulp-babel @babel/core @babel/preset-env
+npm install workbox-build gulp --save-dev

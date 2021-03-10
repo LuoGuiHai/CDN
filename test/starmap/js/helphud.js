@@ -1,0 +1,1 @@
+"use strict";var hideHelpHudTime=8e3,helpHidden=!1;function hideHelp(){if(!helpHidden){helpHidden=!0;var e=document.getElementById("controlshelp");e&&(e.style.display="none")}}setTimeout(function(){hideHelp()},hideHelpHudTime),document.addEventListener("mousedown",function(){hideHelp()},!0);

@@ -1,0 +1,1 @@
+"use strict";function Mirror(){var i,o,t;i=window.location.pathname,"guihai-ocean.com"===(o=window.location.hostname)?(t="https://luoguihai.gitee.io"+i,window.alert("即将为您跳转至镜像站"),window.location.href=t):"luoguihai.gitee.io"===o?(t="https://guihai-ocean.com"+i,window.alert("当前为镜像站，即将返回主站"),window.location.href=t):window.alert("本地调试，无需跳转")}

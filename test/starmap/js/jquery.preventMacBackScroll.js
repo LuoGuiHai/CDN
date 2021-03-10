@@ -1,0 +1,1 @@
+"use strict";!function(c){navigator.userAgent.match(/Macintosh/)&&navigator.userAgent.match(/Chrome/)&&c(window).mousewheel(function(t,e,n,r){var a,o;a=n<0&&!_(c(t.target).parents()).detect(function(t){return 0<c(t).scrollLeft()}),o=0<r&&!_(c(t.target).parents()).detect(function(t){return 0<c(t).scrollTop()}),(a||o)&&t.preventDefault()})}(jQuery);

@@ -1,0 +1,1 @@
+"use strict";GitHubCalendar(".calendar","LuoGuiHai"),GitHubCalendar(".calendar","LuoGuiHai",{responsive:!0});

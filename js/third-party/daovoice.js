@@ -1,0 +1,1 @@
+"use strict";daovoice("init",{app_id:"dc0dd56c"}),daovoice("update");

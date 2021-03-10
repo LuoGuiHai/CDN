@@ -1,0 +1,83 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+    - name: JerryC
+      link: https://jerryc.me
+      avatar: https://jerryc.me/image/avatar.png
+      descr: 今日事,今日毕
+    - name: Hexo
+      link: https://hexo.io
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简单且强大的网志框架
+    - name: 小康博客
+      link: https://antmoe.com
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 
+      # 边框大小 默认为0 
+      width: 0px
+      # 边框样式 默认 solid
+      style: solid
+      # 边框颜色 默认淡蓝色 #49b1f5
+      color: "#0078e7"
+      # 自动旋转 可选值 flash（闪现） link_custom（单色呼吸灯） link_custom1（彩色呼吸灯）
+      custom: link_custom1
+      # 动画时长设定，默认为0
+      time: 4s
+      # name的颜色
+      namecolor: "#ff9191"
+      # descr的颜色
+      descolor: "#ff9191"
+      # 背景颜色
+      background: 0
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+      # 自动旋转 latuo左旋转 rauto右旋转
+      autorotate: "lauto"
+      # 旋转的周期（时长）
+      autotime: 2s
+      #移除此链接的权重 0为否 非0为移除
+      remove: 0
+    - name: Akilarの糖果屋
+      link: https://akilar.top
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+      # 边框大小 默认为0 
+      width: 0px
+      # 边框样式 默认 solid
+      style: solid
+      # 边框颜色 默认淡蓝色 #49b1f5
+      color: "#0078e7"
+      # 自动旋转 可选值 flash（闪现） link_custom（单色呼吸灯） link_custom1（彩色呼吸灯）
+      custom: link_custom1
+      # 动画时长设定，默认为0
+      time: 4s
+      # name的颜色
+      namecolor: "#ff9191"
+      # descr的颜色
+      descolor: "#ff9191"
+      # 背景颜色
+      background: 0
+      # 鼠标悬停旋转角度
+      rotate: 360deg
+      # 自动旋转 latuo左旋转 rauto右旋转
+      autorotate: "lauto"
+      # 旋转的周期（时长）
+      autotime: 2s
+      #移除此链接的权重 0为否 非0为移除
+      remove: 0
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596812522063&di=e5d67a6de5ecee573c8e06954b7f7daf&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171012%2F5a3e2474e2b942b2b4cb5454f941cc10.png
+      descr: 视频网站
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3835262565,3924822629&fm=11&gp=0.jpg
+      descr: 中国最大社交分享平台
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4925477,2825278026&fm=26&gp=0.jpg
+      descr: 社交分享平台

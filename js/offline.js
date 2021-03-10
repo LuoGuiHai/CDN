@@ -1,0 +1,1 @@
+"use strict";pjax.site_handleResponse=pjax.handleResponse,pjax.handleResponse=function(e,s,n,p){Object.defineProperty(s,"responseURL",{value:n}),pjax.site_handleResponse(e,s,n,p)};
